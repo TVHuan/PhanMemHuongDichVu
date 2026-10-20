@@ -1,0 +1,22 @@
+{
+  "name": "phanmemhuongdichvu",
+  "version": "1.0.0",
+  "description": "Thực hành LAB 3: Kết nối và duy trì kết nối giữa các service (SOA/Microservices)",
+  "main": "index.js",
+  "scripts": {
+    "start:bank": "node src/mock-bank/index.js",
+    "start:fee": "node src/fee-service/index.js",
+    "test:th1": "node scripts/test-th1.js",
+    "test:th2": "node scripts/test-th2.js",
+    "test:th3": "node scripts/test-th3.js",
+    "test:th4": "node scripts/test-th4.js",
+    "test:all": "node scripts/test-all.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.20.0",
+    "express": "^4.19.2"
+  }
+}
